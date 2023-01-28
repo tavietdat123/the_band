@@ -1,0 +1,84 @@
+@media(min-width: 64em) {
+    .pc {
+        display: block;
+    }
+}
+
+@media (min-width:46.25em)and(max-width:63.9375em) {
+    .tablet {
+        display: block;
+    }
+}
+
+@media (max-width:63.9375em) {
+    .btn {
+        padding: 16px 20px
+    }
+    .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+    .socials-list a {
+        margin: 0 8px;
+    }
+    #footer .text-footer a {
+        padding: 15px 0;
+        display: inline-block;
+    }
+    .btn-phone-tl {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 46.1875em) {
+    #header {
+        overflow: hidden;
+    }
+    #nav {
+        display: block;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    #nav>li>a {
+        padding: 1px 24px;
+    }
+    #header #search {
+        display: none;
+    }
+    .menu-search {
+        display: block;
+    }
+    #content .anh-tv {
+        width: 60%;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    .s-col-full {
+        width: 100%;
+    }
+    .contact-form {
+        margin-top: 32px;
+    }
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+    .width-full {
+        width: 100%;
+    }
+}
